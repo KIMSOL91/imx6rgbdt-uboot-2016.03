@@ -96,6 +96,12 @@ config TARGET_MX6SABRESD
 	select DM
 	select DM_THERMAL
 
+config TARGET_MX6RGBDT
+	bool "mx6rgbdt"
+	select SUPPORT_SPL
+	select DM
+	select DM_THERMAL
+
 config TARGET_MX6SLEVK
 	bool "mx6slevk"
 	select SUPPORT_SPL
@@ -278,5 +284,6 @@ source "board/wandboard/Kconfig"
 source "board/warp/Kconfig"
 source "board/freescale/mx6dqscm/Kconfig"
 source "board/freescale/mx6sxscm/Kconfig"
+source "board/freescale/mx6rgbdt/Kconfig"
 
 endif

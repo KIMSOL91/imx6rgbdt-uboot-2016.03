@@ -1,0 +1,12 @@
+if TARGET_MX6RGBDT
+
+config SYS_BOARD
+	default "mx6rgbdt"
+
+config SYS_VENDOR
+	default "freescale"
+
+config SYS_CONFIG_NAME
+	default "mx6rgbdt"
+
+endif
